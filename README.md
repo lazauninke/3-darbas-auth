@@ -2,8 +2,6 @@
 
 _Group website project_
 
-Site published at https://front-end-by-rimantas.github.io/26-grupe-mergaite/
-
 Design: [Auth]
 
 ## Project features
