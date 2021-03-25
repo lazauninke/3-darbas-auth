@@ -74,10 +74,54 @@ body {
 }
 
 .form > .form-row > label {
-  display: inline-block;
-  width: 100%;
-}
-.form > .form-row > input {
-  display: inline-block;
-  width: 100%;
-}
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .form > .form-row > input {
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .form > .form-row > input:focus {
+    background-color: yellow;
+    outline: 2px dashed red;
+  }
+  .form > .form-row > button {
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: #015cda;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .form > .form-row > span {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #015cda;
+    text-decoration: none;
+  }
+  .form > .form-row > a:hover {
+    text-decoration: underline;
+  }
