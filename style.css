@@ -1,3 +1,127 @@
-body{
-
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+body {
+  background-color: #8ecadf;
+}
+
+.container {
+  display: inline-block;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: calc((100% - 800px) / 2);
+  margin-right: calc((100% - 800px) / 2);
+}
+
+.left-column {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding: 40px;
+  background-color: #0051a9;
+}
+
+.main-title {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 100px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.bottom-links {
+  display: inline-block;
+  width: 100%;
+}
+
+.link {
+  display: inline-block;
+  color: #fff;
+}
+
+.symbol {
+  display: inline-block;
+  color: #fff;
+}
+
+.right-column {
+  display: inline-block;
+  width: 60%;
+  padding: 60px;
+  float: left;
+  background-color: #fff;
+}
+
+.form {
+  display: inline-block;
+  width: 100%;
+}
+
+.form > .form-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form > .form-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .form > .form-row > input {
+    display: inline-block;
+    width: 100%;
+    line-height: 35px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .form > .form-row > input:focus {
+    background-color: yellow;
+    outline: 2px dashed red;
+  }
+  .form > .form-row > button {
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: #015cda;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .form > .form-row > span {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #015cda;
+    text-decoration: none;
+  }
+  .form > .form-row > a:hover {
+    text-decoration: underline;
+  }
