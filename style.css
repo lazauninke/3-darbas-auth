@@ -28,6 +28,8 @@ body {
 }
 
 .main-title {
+  display: inline-block;
+  width: 100%;
   margin-bottom: 100px;
   color: #fff;
   font-size: 30px;
@@ -35,20 +37,47 @@ body {
 }
 
 .bottom-links {
+  display: inline-block;
+  width: 100%;
 }
 
 .link {
+  display: inline-block;
   color: #fff;
 }
 
 .symbol {
+  display: inline-block;
   color: #fff;
 }
 
 .right-column {
   display: inline-block;
   width: 60%;
-  padding: 40px;
+  padding: 60px;
   float: left;
   background-color: #fff;
+}
+
+.form {
+  display: inline-block;
+  width: 100%;
+}
+
+.form > .form-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form > .form-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.form > .form-row > label {
+  display: inline-block;
+  width: 100%;
+}
+.form > .form-row > input {
+  display: inline-block;
+  width: 100%;
 }
