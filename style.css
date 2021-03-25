@@ -19,14 +19,20 @@ body {
   margin-top: 100px;
   margin-left: calc((100% - 800px) / 2);
   margin-right: calc((100% - 800px) / 2);
+  position: relative;
 }
 
 .left-column {
   display: inline-block;
   width: 40%;
-  float: left;
   padding: 40px;
   background-color: #0051a9;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  bottom: 30px;
+
+
 }
 
 .main-title {
@@ -40,7 +46,10 @@ body {
 
 .bottom-links {
   display: inline-block;
-  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  right: 30px;
 }
 
 .link {
@@ -57,9 +66,10 @@ body {
   display: inline-block;
   width: 60%;
   padding: 60px;
-  float: left;
+  float: right;
   background-color: #fff;
   position: relative;
+
 }
 
 .close{
